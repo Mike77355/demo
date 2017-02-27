@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#box{
+				width: 1220px;
+				height: 500px;
+				border: 1px solid #d0d0d0;
+				border-radius: 8px;
+				margin: 100px auto 0;
+				position: relative;
+				transform: perspective(3000px) rotateX(0deg) rotateY(0deg) ;
+				transform-style: preserve-3d;
+				perspective: ;
+				
+			}
+			#box img{
+				width: 1220px;
+				height: 500px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				border-radius: 8px;	
+			}
+			.img2{
+				transform: translateZ(20px) scale(0.985);
+			}
+			.img3{
+				transform: translateZ(20px) scale(0.985);
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<img src="miaosha1.png@0o_0l_2440w_100q.png" class="img1"/>
+			<img src="miaosha2.png@0o_0l_2440w_100q.png" class="img2"/>
+			<img src="miaosha3.png@0o_0l_2440w_100q.png" class="img3" />
+		</div>
+		
+	</body>
+	<script type="text/javascript">
+		box.onmousemove=function(evt){
+			var evt = evt||event;
+			var moux=evt.clientX;
+			var mouy=evt.clientY;
+			var boxY=box.offsetHeight/2+box.offsetTop;
+			var boxX=box.offsetWidth/2+box.offsetLeft;
+			var Xdeg=(boxX-moux)/200;
+			var Ydeg=(boxY-mouy)/50;
+			box.style.transform="perspective(3000px) rotateX("+Ydeg+"deg) rotateY("+-Xdeg+"deg)";
+			var  yX=Xdeg*6;
+			var  yY=Ydeg*4;
+			box.style.boxShadow=yX+"px "+yY+"px 20px #ccc";
+			
+		}
+		box.onmouseout=function(){
+			box.style.boxShadow="0px 0px 20px 0px #DADADA";
+		}
+		
+	</script>
+</html>
