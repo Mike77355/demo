@@ -2,22 +2,14 @@
 li{list-style: none;}
 a{text-decoration: none;}
 #container{
-	width:1920px;
-	margin:0 auto;
+	width:100%;
+	margin:-1px auto 0;
 }
 #banner-aboutUs{
 	width:100%;
 	height:568px;
-	background:url(../img/banner_02.png) no-repeat center;
+	background:url(../img/banner_03.png) no-repeat center;
 	position:relative;
-}
-.company-intro{
-	width:379px;
-	height:335px;
-	position:absolute;
-	top:9.5%;
-	left:21.3%;
-	background:url(../img/aboutJIEAN_03.png) no-repeat center;
 }
 @font-face {
 	font-family:DFPyasongw9;
@@ -33,11 +25,12 @@ a{text-decoration: none;}
 }
 
 /*关于我们—主体*/
-.aboutUs-main{
-	width:100%;
+#aboutUs-main{
+	width:1200px;
+	margin:0 auto;
 }
 .intro{
-	width:62.5%;
+	width:100%;
 	margin:0 auto;
 	margin-top:70px;
 }
@@ -48,7 +41,6 @@ a{text-decoration: none;}
 /*介绍头部*/
 .intro .intro-title{
 	text-align: center;
-	padding:0;
 	margin-bottom:37px;
 }
 /*介绍主体内容*/
@@ -58,7 +50,7 @@ a{text-decoration: none;}
 	letter-spacing:0.147em;
 }
 .history{
-	width:62.5%;
+	width:100%;
 	height:446px;
 	background:url(../img/history_03.png) no-repeat center;
 	margin:0 auto;
@@ -67,7 +59,7 @@ a{text-decoration: none;}
 }
 /**/
 .main-bottom{
-	width:62.5%;
+	width:100%;
 	margin:0 auto;
 }
 .bottom-left{
