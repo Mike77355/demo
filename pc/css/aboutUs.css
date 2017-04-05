@@ -1,0 +1,114 @@
+*{margin:0;padding:0;}
+li{list-style: none;}
+a{text-decoration: none;}
+#container{
+	width:1920px;
+	margin:0 auto;
+}
+#banner-aboutUs{
+	width:100%;
+	height:568px;
+	background:url(../img/banner_02.png) no-repeat center;
+	position:relative;
+}
+.company-intro{
+	width:379px;
+	height:335px;
+	position:absolute;
+	top:9.5%;
+	left:21.3%;
+	background:url(../img/aboutJIEAN_03.png) no-repeat center;
+}
+@font-face {
+	font-family:DFPyasongw9;
+	src: url("..font/dfyasongw9.ttf");
+}
+.intro-CHN{
+	font-size:45px;
+	font-family: DFPyasongw9;
+}
+.intro-ENG{
+	font-size:20px;
+	font-family:DFPyasongw9;
+}
+
+/*关于我们—主体*/
+.aboutUs-main{
+	width:100%;
+}
+.intro{
+	width:62.5%;
+	margin:0 auto;
+	margin-top:70px;
+}
+.defaultFont{
+	font-size:30px;
+	font-family: "微软雅黑";
+}
+/*介绍头部*/
+.intro .intro-title{
+	text-align: center;
+	padding:0;
+	margin-bottom:37px;
+}
+/*介绍主体内容*/
+.intro .intro-content{
+	margin-bottom:22px;
+	font-size:15px;
+	letter-spacing:0.147em;
+}
+.history{
+	width:62.5%;
+	height:446px;
+	background:url(../img/history_03.png) no-repeat center;
+	margin:0 auto;
+	box-shadow: 0 0 10px #e9deca;
+	margin-top:65px;
+}
+/**/
+.main-bottom{
+	width:62.5%;
+	margin:0 auto;
+}
+.bottom-left{
+	width:32.666666%;
+	float:left;
+	position:relative;
+}
+.bottom-left .mid-line{
+	position:absolute;
+	top:3.8px;
+	left:40%;
+}
+.bottom-left .year-img{
+	position:absolute;
+	left:16%;
+	top:66px;
+}
+.year-img img{
+	margin-bottom:22%;
+}
+.bottom-right{
+	width:62.99999%;
+	float:right;
+	padding-top:76px;
+	padding-right:64px;
+}
+.description{
+	width:691px;
+	height:86px;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 3px;
+	font-size:14px;
+	letter-spacing: 0.02em;
+	padding:5.788712% 3.617945% 7.5253256% 3.328509%;
+	margin-bottom:96px;
+	color:#595a55;
+}
+.description p:nth-child(1){
+	text-indent: 29px;
+}
+.description p{
+	margin-bottom:11px;
+}
