@@ -1,7 +1,7 @@
 .solution_banner{
 	width: 100%;
 	height: 387px;
-	background: url(../img/Solution_banner.jpg) no-repeat;
+	background: url(../img/jiefang.png) no-repeat;
 	background-size:100% 100%;
 	position: relative;
 }
@@ -135,6 +135,7 @@
 	margin-left: 93px;
 	overflow: hidden;
 	position: relative;
+	box-sizing: border-box;
 }
 .Scenario_con li:first-of-type{
 	margin-left: 22px;
@@ -142,12 +143,17 @@
 	
 }
 .Scenario_con li img{
-	margin: 20px 0 0 75px;
+	position: absolute;
+	top: 20px;
+	left: 75px;
 	
+}
+.Scenario_con li img:nth-of-type(1){
+	/*display: none;*/
 }
 .Scenario_con li .Asset_side{
 	color:white;
-	margin:15px 0 0 38px;
+	margin:90px 0 0 38px;
 	font-size: 20px;
 }
 .Scenario_con li p:nth-of-type(2){
@@ -165,41 +171,37 @@
 	font-size: 14px;
 	margin: 5px 0 0 65px;
 }
-.Scenario_con li div{
-	color: white;
-	width: 27px;
-	height: 20px;
-	border-radius: 50%;
-	position: absolute;
-}
 .Scenario_con li:nth-of-type(2) .Asset_side{
 	color: #0d47a1;
 	margin-left: 48px;
 }
 .Scenario_con li:nth-of-type(2) p:nth-of-type(2){
-	color: black;
+	color: #0d47a1;
 }
 .Scenario_con li:nth-of-type(2) p:nth-of-type(3){
-	color: black;
+	color: #0d47a1;
 }
 .Scenario_con li:nth-of-type(2) p:nth-of-type(4){
-	color: black;
+	color: #0d47a1;
 	margin-left: 80px;
 }
 .Scenario_con li:nth-of-type(2) img{
-	margin-left: 80px;
+	left: 80px;
+}
+.Scenario_con li:nth-of-type(3) img{
+	left: 80px;
 }
 .Scenario_con li:nth-of-type(3) .Asset_side{
 	color: #0d47a1;
 }
 .Scenario_con li:nth-of-type(3) p:nth-of-type(2){
-	color: black;
+	color: #0d47a1;
 }
 .Scenario_con li:nth-of-type(3) p:nth-of-type(3){
-	color: black;
+	color: #0d47a1;
 }
 .Scenario_con li:nth-of-type(3) p:nth-of-type(4){
-	color: black;
+	color: #0d47a1;
 	margin-left: 80px;
 }
 .Scenario_con_list{
@@ -208,14 +210,19 @@
 	height: 210px;
 	
 }
-.Scenario_con_list div{
-	
+.Scenario_con_list>div{
+	position: absolute;
+	left: 65px;
 }
 .round{
+	background: white;
+	width: 27px;
+	height: 20px;
+	border-radius: 50%;
 	position: absolute;
-	width: 100%;
-	height: 100%;
-	display: none;
+	bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .borrowing_title{
 	text-align: center;
@@ -308,15 +315,23 @@
 	height: 458px;
 	position: relative;
 }
+.deploy_p2p_con{
+	height: 610px;
+}
 .deploy_p2p_con_img1{
 	margin: 28px 0 0 23px;
 }
 .deploy_p2p_con_img2{
 	margin: 28px 0 0 48px;
 }
+.deploy_suggest_list{
+	height: 153px;
+	width: 100%;
+}
 .deploy_suggest{
 	height: 153px;
 	width:100%;
+	
 }
 .deploy_suggest_title{
 	font-size: 16px;

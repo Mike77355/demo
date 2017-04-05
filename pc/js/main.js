@@ -125,5 +125,10 @@ $(function() {
 	$("footer").load("public_Ajax.html footer",function() {
 		$('.footer-wrapper').unwrap()
 	});
+	$('.rightside-wrapper>ul>li').hover(function(){
+		$(this).find("span").show()
+	},function(){
+		$(this).find("span").hide()
+	})
 
 });

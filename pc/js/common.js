@@ -65,10 +65,10 @@ $(function() {
     })
 
     function getTop() {
-        var top = document.body.scrollTop || document.documentElement.scrollTop;
+      /*  var top = document.body.scrollTop || document.documentElement.scrollTop;
         if (top < 600) {
             $(".rightside-wrapper").css("top", "600px")
-        }
+        }*/
     }
     getTop();
     /*返回顶部*/

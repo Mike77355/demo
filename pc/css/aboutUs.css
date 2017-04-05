@@ -1,6 +1,7 @@
 *{margin:0;padding:0;}
 li{list-style: none;}
 a{text-decoration: none;}
+body{background:#fff;}
 #container{
 	width:100%;
 	margin:-1px auto 0;
@@ -27,12 +28,13 @@ a{text-decoration: none;}
 /*关于我们—主体*/
 #aboutUs-main{
 	width:1200px;
-	margin:0 auto;
+	margin:-1px auto 0;
 }
 .intro{
-	width:100%;
+	width:1200px;
 	margin:0 auto;
 	margin-top:70px;
+	font-family: "微软雅黑";
 }
 .defaultFont{
 	font-size:30px;
@@ -45,9 +47,11 @@ a{text-decoration: none;}
 }
 /*介绍主体内容*/
 .intro .intro-content{
-	margin-bottom:22px;
-	font-size:15px;
-	letter-spacing:0.147em;
+	font-size:16px;
+	word-break: break-word;
+	line-height: 37px;
+	font-family: "微软雅黑";
+	letter-spacing: 0.07em;
 }
 .history{
 	width:100%;
@@ -77,8 +81,20 @@ a{text-decoration: none;}
 	left:16%;
 	top:66px;
 }
-.year-img img{
-	margin-bottom:22%;
+.bottom-left .year-img>div{
+	width:200px;
+	height:200px;
+	margin-bottom:38.5%;
+	position:relative;
+}
+.bottom-left .year-img>div{
+	cursor:pointer;
+}
+.year-img>div img{
+	position:absolute;
+}
+.year-img>div :last-child{
+	display: none;
 }
 .bottom-right{
 	width:62.99999%;
@@ -97,6 +113,7 @@ a{text-decoration: none;}
 	padding:5.788712% 3.617945% 7.5253256% 3.328509%;
 	margin-bottom:96px;
 	color:#595a55;
+	font-family: "微软雅黑";
 }
 .description p:nth-child(1){
 	text-indent: 29px;
