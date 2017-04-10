@@ -108,21 +108,8 @@
             	</div>
             	<img src="img/banner-title02.png" alt="" class="banner-titless"/>
             </div>
-            <div class="swiper-slide">
-            	<div class="aboutUs-banner-img">
-            		<img src="img/aboutUs-banner-bg1_02.png"/>
-            	</div>
-            	<img src="img/banner-title02.png" alt="" class="banner-titless"/>
-            </div>
-            <div class="swiper-slide">
-            	<div class="aboutUs-banner-img">
-            		<img src="img/aboutUs-banner-bg1_02.png"/>
-            	</div>
-            	<img src="img/banner-title02.png" alt="" class="banner-titless"/>
-            </div>
         </div>
         <!-- 分页器-->
-        <div class="swiper-pagination"></div>
     </div>
     
     <!--中间公司介绍-->
@@ -196,12 +183,6 @@
 	<script src="js/main.js"></script>
 	<script src="js/swiper.min.js"></script>
 	<script type="text/javascript">
-		var banner = new Swiper('#banner', {
-		    pagination: '.swiper-pagination',
-		    paginationClickable: true,
-		    loop: true,
-		    autoplay: 2000
-		});
 		
 		$(".year-button>li").hover(function(){
 			$(".year-wrapper").fadeOut().eq($(this).index()).fadeIn();
