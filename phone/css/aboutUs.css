@@ -1,0 +1,152 @@
+/*banner*/
+#banner.swiper-container {
+    width: 100%;
+    height: 7.90625rem;
+    /*margin-top: 1.172rem;*/
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+
+    /* Center slide text vertically */
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative;
+}
+.swiper-slide>.aboutUs-banner-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.swiper-slide>.aboutUs-banner-img>img{
+    width: 100%;
+    height: 100%;
+}
+/*轮播分器样式*/
+/*轮播分页器*/
+.swiper-pagination-bullet{
+    width: 16px;
+    height: 2px;
+    border-radius: 0;
+    background: #fff;
+    opacity: .5;
+}
+.swiper-pagination-bullet-active{
+    opacity: 1;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 0.625rem;
+}
+
+/*中间介绍部分*/
+#aboutUs-intro{	
+	width:100%;
+	padding-top:0.698412rem;	
+}
+.intro-wrapper{
+	width:72.66666%;
+	padding:0.968253rem 0.746031rem 0.968253rem 0.809523rem;
+	border:0.031746rem solid #c0c0c0;
+	margin:0 auto;
+	text-align: center;
+}
+.intro-wrapper .company-name{
+	/*30px*/
+	font-size:0.47619rem;
+	display:inline;
+}
+.intro-wrapper p{
+	/*24px*/
+	font-size:0.380952rem;
+	color:#787878;
+	text-indent: 0.841269rem;
+	line-height: 0.571428rem;
+	text-align:left;
+}
+.intro-wrapper p:nth-child(2){
+	margin-top:0.79365rem;
+}
+
+/*历史沿革*/
+#company-history{
+	/*355px*/
+	height:5.63492rem;
+	background:url(../img/history_02.png) no-repeat center;
+	background-size:cover;
+	margin-top:0.761904rem;
+}
+
+/*年份*/
+#year-book{
+	width:100%;
+	height:9.603174rem;
+	position:relative;
+}
+.year-wrapper{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:contain;
+	display: none;
+}
+/*时间线*/
+.time-line{
+	width:100%;
+	height:0.190476rem;
+	background:url(../img/timeline_02.png) no-repeat center;
+	background-size:contain;
+	margin-top:0.873015rem;
+	position:relative;
+}
+.year-button{
+	width:9.301587rem;
+	margin-left:1.504761rem;
+}
+.year-button li{	
+	width:0.253968rem;
+	height:0.253968rem;
+	border-radius: 100%;
+	float:left;
+	margin-right:1.5rem;
+	margin-bottom:0.15873rem;
+	transition:all .6s ease;
+}
+.year-button li:hover{
+	transform:scale(1.5);
+	cursor:pointer;
+}
+.banner-titless{
+	margin-top: 1.136986rem;
+	width: 73.6%;
+}
+.year-text{
+	width: 8.958904rem;
+	height: 1.369863rem;
+	margin: 0 auto;
+	overflow: auto;
+}
+.year-text>span{
+	display: inline-block;
+	float: left;
+	width: 1.83835rem;
+	color:#353535;
+	font-size: 0.328767rem;
+	text-align: right;
+	
+}
