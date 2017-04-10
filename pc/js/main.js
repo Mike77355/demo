@@ -130,13 +130,6 @@ $(function() {
 	},function(){
 		$(this).find("span").hide()
 	})
-	$(window).scroll(function(){
-		var stop=$("body").scrollTop();
-		if(stop>200){
-			$(".rightside-wrapper").show(100);
-		}else{
-			$(".rightside-wrapper").hide(100);
-		}
-	})
+	
 
 });
