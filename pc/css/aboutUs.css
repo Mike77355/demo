@@ -1,0 +1,123 @@
+*{margin:0;padding:0;}
+li{list-style: none;}
+a{text-decoration: none;}
+body{background:#fff;}
+#container{
+	width:100%;
+	margin:-6px auto 0;
+}
+#banner-aboutUs{
+	width:100%;
+	height:568px;
+	background:url(../img/guanyujiean-bannner_02.png) no-repeat center;
+	position:relative;
+}
+@font-face {
+	font-family:DFPyasongw9;
+	src: url("..font/dfyasongw9.ttf");
+}
+.intro-CHN{
+	font-size:45px;
+	font-family: DFPyasongw9;
+}
+.intro-ENG{
+	font-size:20px;
+	font-family:DFPyasongw9;
+}
+
+/*关于我们—主体*/
+#aboutUs-main{
+	width:1200px;
+	margin:-1px auto 0;
+}
+.intro{
+	width:1200px;
+	margin:0 auto;
+	margin-top:70px;
+	font-family: "微软雅黑";
+}
+.defaultFont{
+	font-size:30px;
+	font-family: "微软雅黑";
+}
+/*介绍头部*/
+.intro .intro-title{
+	text-align: center;
+	margin-bottom:37px;
+}
+/*介绍主体内容*/
+.intro .intro-content{
+	font-size:16px;
+	word-break: break-word;
+	line-height: 37px;
+	font-family: "微软雅黑";
+	letter-spacing: 0.07em;
+}
+.history{
+	width:100%;
+	height:446px;
+	background:url(../img/history_03.png) no-repeat center;
+	margin:0 auto;
+	box-shadow: 0 0 10px #e9deca;
+	margin-top:65px;
+}
+/**/
+.main-bottom{
+	width:100%;
+	margin:0 auto;
+}
+.bottom-left{
+	width:32.666666%;
+	float:left;
+	position:relative;
+}
+.bottom-left .mid-line{
+	position:absolute;
+	top:3.8px;
+	left:40%;
+}
+.bottom-left .year-img{
+	position:absolute;
+	left:16%;
+	top:66px;
+}
+.bottom-left .year-img>div{
+	width:200px;
+	height:200px;
+	margin-bottom:77px;
+	position:relative;
+}
+.bottom-left .year-img>div{
+	cursor:pointer;
+}
+.year-img>div img{
+	position:absolute;
+}
+.year-img>div :last-child{
+	display: none;
+}
+.bottom-right{
+	width:62.99999%;
+	float:right;
+	padding-top:67px;
+	padding-right:64px;
+}
+.description{
+	width:691px;
+	height:200px;
+	box-sizing: border-box;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 3px;
+	font-size:14px;
+	letter-spacing: 0.02em;
+	padding:5.388712% 3.617945% 7.5253256% 3.328509%;
+	margin-bottom:77px;
+	color:#595a55;
+	font-family: "微软雅黑";
+}
+
+.description p{
+	line-height: 30px;
+	text-indent: 29px;
+}
